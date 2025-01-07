@@ -10,7 +10,7 @@ const Home = ({ navigation }) => {
         if (data) setBooks(JSON.parse(data));
     };
 
-    loadBooks(); // Load books on every render
+    loadBooks();
 
     return (
         <View style={styles.container}>

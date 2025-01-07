@@ -1,4 +1,3 @@
-// AddBookScreen.js
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
